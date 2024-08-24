@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+  <head>
+    <title>Intro</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+
+
+    <header class="top-bar">
+        <div class="left-section">
+            <p class="name">Riddhi Bhagwat</p>
+        </div>
+        <div class="right-section">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="writing_speaking.html">Writing & Speaking</a></li>
+                    <!-- <li><a href="contact.html">Contact</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+<div class="projects">
+    <div class="section-title">
+      <p class="section-title-text">Projects & Experiences</p>
+      <div class="section-line"></div>
+    </div>
+    <div class="proj-ongoing clip-contents">
+      <div class="project-info-container">
+        <div class="project-container ongoing-container">
+          <p class="ongoing-title">Ongoing Personal Project!</p>
+          <p class="proj-desc">
+            Working on a project surrounding heart health, holistic health,
+            and sudden cardiac arrest. Contact me if interested in hearing
+            more!
+          </p>
+            <button class="proj-contact-button project-button" id="ongoing-btn">Contact</button>
+        </div>
+      </div>
+    </div>
+    <div class="project-box clip-contents">
+      <div class="project-info-container">
+        <div class="project-container">
+          <p class="proj-title">FracNet</p>
+          <p class="proj-desc">
+            A deep learning tool based on flow modeling architecture to
+            provide insights into underground fractured rock networks.
+          </p>
+            <button class="project-button" id="fracnet-git">GitHub</button>
+        </div>
+      </div>
+      <img
+        src="images/fracnet_image.png"
+        alt="FracNet - Rock Network Simulation Alogrithm"
+        class="fracnet-img"
+      />
+    </div>
+    <div class="project-box">
+      <img
+        src = "images/onconpc_image.png"
+        alt="OncoNPC Cancer Classification Diagram - From Publication in Nature Mag."
+        class="onconpc-img"
+      />
+      <div class="project-info-container">
+        <div class="onconpc-container">
+          <p class="proj-title onco-title">OncoNPC Generalization</p>
+          <p class="proj-desc onco-desc">
+            Generalizing the OncoNPC classification algorithm (developed in
+            collaboration with MIT CSAIL) to a broader patient population by
+            training on specific gene sequencing platforms
+          </p>
+            <button class="project-button onconpc-git" id="onconpc-git">Original OncoNPC</button>
+        </div>
+      </div>
+    </div>
+    <div class="project-box clip-contents">
+        <div class="project-info-container">
+          <div class="project-container">
+            <p class="proj-title">ToneMe</p>
+            <p class="proj-desc">
+              A tone correction tool for Mandarin learners. Developed with team
+              as part of AIM (AI @ MIT) Labs Accelerator (MIT’s Premier
+              Undergraduate Accelerator)
+            </p>
+          <button class="project-button toneme-git" id="toneme-git">GitHub</button>
+          </div>
+        </div>
+        <img
+          src="images/toneme_image.png"
+          alt="ToneMe Website Snapshot"
+          class="toneme-img"
+        />
+      </div>
+  </div>
+
+<script src="script.js" defer></script>
+    </body>
