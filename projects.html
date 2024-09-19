@@ -18,7 +18,6 @@
                     <li><a href="index.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="writing_speaking.html">Writing & Speaking</a></li>
-                    <!-- <li><a href="contact.html">Contact</a></li> -->
                 </ul>
             </nav>
         </div>
@@ -26,16 +25,17 @@
 
 
 <div class="projects">
-    <div class="section-title">
-      <p class="section-title-text">Projects & Experiences</p>
+    <div class="section-title" >
+      <p class="title-projects" id="title-projects"></p>
       <div class="section-line"></div>
     </div>
+    <div class="ongoing-section">
     <div class="proj-ongoing clip-contents">
       <div class="project-info-container">
         <div class="project-container ongoing-container">
           <p class="ongoing-title">Ongoing Personal Project!</p>
           <p class="proj-desc">
-            Working on a project surrounding heart health, holistic health,
+            Working on a project surrounding technologies for heart health, holistic health,
             and sudden cardiac arrest. Contact me if interested in hearing
             more!
           </p>
@@ -43,11 +43,30 @@
         </div>
       </div>
     </div>
+    <div class="proj-ongoing clip-contents">
+      <div class="project-info-container">
+        <div class="project-container ongoing-container">
+          <p class="ongoing-title">RLHF-Based LLM Training Platform</p>
+          <p class="proj-desc">
+            *Ongoing*
+            <br>
+            Developing a platform to collect human feedback for LLMs, integrate 
+            it into automated training pipelines, and deploy the system with HuggingFace 
+            for real-world testing. Contact to learn more! 
+            
+          </p>
+            <button class="proj-contact-button project-button" id="ongoing-btn">Contact</button>
+        </div>
+      </div>
+    </div>
+    </div>
     <div class="project-box clip-contents">
       <div class="project-info-container">
         <div class="project-container">
           <p class="proj-title">FracNet</p>
           <p class="proj-desc">
+            *Ongoing* 
+            <br>
             A deep learning tool based on flow modeling architecture to
             provide insights into underground fractured rock networks.
           </p>
@@ -99,4 +118,23 @@
   </div>
 
 <script src="script.js" defer></script>
-    </body>
+<footer class="footer">
+  <div class="footer-content">
+      <p class="contact-title">Contact Me</p>
+      <div class="contact-info">
+        <a href="mailto:example@example.com">
+            <i class="fas fa-envelope"></i> riddhibhagwat@gmail.com
+        </a>
+        <a href="tel:+1234567890">
+            <i class="fas fa-phone"></i> +1 847 310 0073
+        </a>
+        <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn Profile
+        </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 Riddhi Bhagwat. All rights reserved.</p>
+  </div>
+</footer>
+</body>

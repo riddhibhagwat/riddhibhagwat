@@ -18,7 +18,6 @@
                     <li><a href="index.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="writing_speaking.html">Writing & Speaking</a></li>
-                    <!-- <li><a href="contact.html">Contact</a></li> -->
                 </ul>
             </nav>
         </div>
@@ -28,7 +27,7 @@
     <div class="intro clip-contents">
       
       <div class="content">
-        <p class="title">Hello, my name is Riddhi</p>
+        <p class="title" id="title-hello"></p>
         <p class="cs-ai-data-innovation-st">
           Cs, AI, Data, & Innovation | Student @ MIT
         </p>
@@ -50,20 +49,25 @@
     <img
       src="images/intro_image.png"
       class="intro-image"
+      id="intro-image"
     />
 </div>
-<div class="about-desc">
-  <div class="section-title">
-    <p class="section-title-text">About Me</p>
-    <div class="section-line"></div>
-
+<div class="about-wrapper">
+  <!-- Background element -->
+  <div class="about-background"></div>
+  
+  <!-- Text content element -->
+  <div class="about-desc">
+    <div class="section-title about-section">
+      <p class="section-title-text">About Me</p>
+      <div class="section-line"></div>
     <p class="about-me-para">
-      Hi! I'm a <span class="major">second-year undergraduate student at MIT </span>
-      majoring in <span class="major">Computer Science & Engineering</span> and minoring in <span class="major">Brain & Cognitive Sciences.</span>
+      Hi! I'm a <span class="major">second-year undergraduate student at MIT</span>
+       majoring in <span class="major">Computer Science & Engineering</span> and minoring in <span class="major">Brain & Cognitive Sciences.</span>
       <br>
       <br>
       I am especially passionate about exploring emerging technologies including <span class="highlights">AI capabilities, 
-      machine learning applications, CI/CD pipelines, and advances in data engineering.</span> 
+      machine learning applications, and advances in data engineering.</span> 
       As a <span class="highlights">lifelong learner</span>, I enjoy continually growing an increasing understanding of technologies and applying them 
       towards forming <span class="highlights">innovative solutions</span>. I am driven to explore their transformative 
       applications to create a global impact. 
@@ -82,19 +86,19 @@
       that I hope you will join me in reminiscing throughout my writing :) 
       <br>
       <br>
-      Let's connect if you're looking for a <span class="major">proactive and enthusiastic</span> individual ready to contribute to <span class="major">cutting-edge 
-      projects</span> and make <span class="major">meaningful advancements</span> in the tech industry!
+      Let's connect if you're looking for a <span class="highlights">proactive and enthusiastic</span> individual ready to contribute to <span class="highlights">cutting-edge 
+      projects</span> and make <span class="highlights">meaningful advancements</span> in the tech industry!
       <br>
       <br>
       Glad to have you here! 
       <br>
       <br>
       ~ Riddhi 
-
+      </p>
+    </div>
   </div>
-
-
 </div>
+
 
 <div class="carousel-container">
   <div class="section-title">
@@ -103,18 +107,36 @@
   </div>
   <div class="carousel-viewport">
   <div class="carousel">
-    <img src="images/featured/ncwit_aic.png" alt="NCWIT AiC">
-    <img src="images/featured/dita_awards.jpg" alt="Diversity in Tech Awards">
-    <img src="images/featured/ncwit_aspireit.png" alt="NCWIT AspireIT">
-    <img src="images/featured/idea2-logo.png" alt="IDEA^2 Biomedical Accelerator">
+    <img id="aic" src="images/featured/ncwit_aic.png" alt="NCWIT AiC">
+    <img id="dita" src="images/featured/dita_awards.jpg" alt="Diversity in Tech Awards">
+    <img id="aspireit" src="images/featured/ncwit_aspireit.png" alt="NCWIT AspireIT">
+    <img id="idea2" src="images/featured/idea2-logo.png" alt="IDEA^2 Biomedical Accelerator">
+    <img id="top-cs-voice" src="images/featured/top_cs_voice.png" alt="LinkedIn Top Voice in Computer Science">
   </div>
   </div>
 </div>
 
 
-
-</div>
-  </body>
+<footer class="footer">
+  <div class="footer-content">
+      <p class="contact-title">Contact Me</p>
+      <div class="contact-info">
+        <a href="mailto:example@example.com">
+            <i class="fas fa-envelope"></i> riddhibhagwat@gmail.com
+        </a>
+        <a href="tel:+1234567890">
+            <i class="fas fa-phone"></i> +1 847 310 0073
+        </a>
+        <a href="https://www.linkedin.com/in/riddhibhagwat" target="_blank">
+            <i class="fab fa-linkedin"></i> LinkedIn Profile
+        </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 Riddhi Bhagwat. All rights reserved.</p>
+  </div>
+</footer>
+</body>
 
   <script src="script.js" defer></script>
 </html>
