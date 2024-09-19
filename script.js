@@ -1,9 +1,5 @@
 var currentPath = window.location.pathname;
 
-app.use((req, res, next) => {
-    res.setHeader('Permissions-Policy', 'geolocation=(self), microphone=()');
-    next();
-  });
 
 // HOME PAGE
 
