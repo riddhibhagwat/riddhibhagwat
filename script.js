@@ -3,7 +3,7 @@ console.log(currentPath)
 
 // HOME PAGE
 
-if (currentPath.endsWith("/index.html") | currentPath == "/" ) {
+if (currentPath != "/projects.html" && currentPath != "/writing_speaking.html" ) {
     const text = "Hello, my name is Riddhi"; 
     const delay = 100; 
     const pauseBeforeRestart = 5000;
