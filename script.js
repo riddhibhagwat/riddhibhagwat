@@ -1,10 +1,9 @@
 var currentPath = window.location.pathname;
-
+console.log(currentPath)
 
 // HOME PAGE
 
-
-if (currentPath == "/index.html") {
+if (currentPath.endsWith("/index.html") | currentPath == "/" ) {
     const text = "Hello, my name is Riddhi"; 
     const delay = 100; 
     const pauseBeforeRestart = 5000;
